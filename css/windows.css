@@ -1,0 +1,35 @@
+/* screen */
+div#eScreen {
+	/*background: url('screenBG.gif') repeat;*/
+	
+}
+/* dialog window */
+table.dialogWindow {
+	background-color: white;
+	/*border-collapse: collapse;*/
+	border: 1px solid #000;
+	outline: 1px solid #000;
+	-moz-outline-radius: 4px;
+	z-index: 5000;
+}
+/* dialog window header */
+.dialogWindow th {
+	background-color: #10147f;;
+	/*padding: 4px;*/
+	cursor: move;
+}
+/* dialog window header icon */
+.dialogWindow th img {
+	cursor: pointer;
+	margin: 3px 3px 0 0;
+}
+
+/* dialog window body */
+.dialogWindow td {
+
+}
+/* dialog window iframe */
+.dialogWindow iframe {
+	border:0;
+	margin:0;
+}		
